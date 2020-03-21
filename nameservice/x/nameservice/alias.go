@@ -24,6 +24,7 @@ var (
 
 type (
 	Keeper          = keeper.Keeper
+	GenesisState    = types.GenesisState
 	MsgSetName      = types.MsgSetName
 	MsgBuyName      = types.MsgBuyName
 	MsgDeleteName   = types.MsgDeleteName
